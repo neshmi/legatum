@@ -1,0 +1,10 @@
+name: Legatum 2.0 2017
+markdown: redcarpet
+highlighter: pygments
+gems: ['jekyll-sass']
+sass:
+    style: expanded
+    deploy_style: compressed
+    compile_in_place: true
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
+exclude_from_localizations: ["javascript", "images", "css"]
