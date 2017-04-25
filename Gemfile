@@ -3,5 +3,4 @@ ruby '2.3.0'
 
 gem 'jekyll'
 gem 'jekyll-sass'
-gem 'jekyll-haml'
 gem 'rack-jekyll'
