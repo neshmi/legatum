@@ -1,7 +1,6 @@
 name: Legatum 2.0 2017
 markdown: redcarpet
 highlighter: rouge
-gems: ['jekyll-sass']
 sass:
     style: expanded
     deploy_style: compressed
