@@ -92,15 +92,9 @@ h2.subTitle:after, h1.noSubtitle:after {
   background-color: #007fff;
 }
 
-#homeFullScreen {
-	background-image: url('../images/2018/theme-pics/banner.jpg');
-	/*background-image: url('../images/theme-pics/paralax-1.jpg');*/
-	height:100%;
-}
-
 /* line 67, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
-#home {
-  background-image: url("../images/theme-pics/paralax-sea-green-3.jpg");
+#homeFullScreen {
+  background-image: url("../images/2018/theme-pics/banner.jpg");
 }
 
 /* line 70, /Users/neshmi/work/neshmi/legatum/css/_design.scss */

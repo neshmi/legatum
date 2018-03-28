@@ -93,8 +93,8 @@ h2.subTitle:after, h1.noSubtitle:after {
 }
 
 /* line 67, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
-#home {
-  background-image: url("../images/theme-pics/paralax-sea-green-3.jpg");
+#homeFullScreen {
+  background-image: url("../images/motilla.jpg");
 }
 
 /* line 70, /Users/neshmi/work/neshmi/legatum/css/_design.scss */

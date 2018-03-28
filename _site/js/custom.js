@@ -2,9 +2,12 @@
 /*global $, jQuery, Modernizr, google, _gat*/
 /*jshint strict: true */
 
+
+
+
 /*************** GOOGLE ANALYTICS ***********/
 /*************** REPLACE WITH YOUR OWN UA NUMBER ***********/
-window.onload = function () { "use strict"; gaSSDSLoad("UA-57158446-1"); }; //load after page onload
+window.onload = function () { "use strict"; gaSSDSLoad(""); }; //load after page onload
 /*************** REPLACE WITH YOUR OWN UA NUMBER ***********/
 
 
@@ -62,21 +65,32 @@ $(document).ready(function() {
     }
     //alert($('#mainHeader').height());
     //alert( $(window).height());
-    var $starter = $(window).height()-($('#mainHeader').height());
+    var $starter = $(window).height() - $('#mainHeader').height();
+
     $(window).scroll(function() {
 
      if ($('#fullScreen').length)
      {
+     	var $windowScrollPosition = $(window).scrollTop();
 
-    
-        if ($(window).scrollTop()>= $starter){
-           $('#mainHeader').slideDown();
-       } else if ($(window).scrollTop()==0){
-           $('#mainHeader').slideUp();
+        if ( $windowScrollPosition >= $starter ){
+
+       		$('#mainHeader').css({
+       			'opacity': 1,
+       			'transform':' scaleY(1)'
+       		});
+
+       } else if ( $windowScrollPosition <= 50  ){
+
+       		$('#mainHeader').css({
+       			'opacity': 0,
+       			'transform':' scaleY(0)'
+       		});
+
        }
-   }
+   	}
 
-     });
+    });
 
 
 
@@ -302,8 +316,7 @@ $(document).ready(function() {
     | OWL CAROUSEL
     |--------------------------------------------------------------------------
     */
-     if($('#portfolio-carousel').length){ 
-     alert('toto');    
+     if($('#portfolio-carousel').length){    
         $("#portfolio-carousel").owlCarousel();
     }
     /*
@@ -597,33 +610,32 @@ $(document).ready(function() {
 
 /*
 |--------------------------------------------------------------------------
-| SHARRRE
+| SHARE
 |--------------------------------------------------------------------------
 */
 if($('#shareme').length){
-  
-    $('#shareme').sharrre({
 
-    share: {
-        googlePlus: true,
-        facebook: true,
-        twitter: true,
-        linkedin: true
-    },
+		var params = {
+			url: ( $('#shareme').data('url') != '' ) ? $('#shareme').data('url') : window.location.href , 
+			title: $('#shareme').data('title'),
+			desc: $('#shareme').data('desc'),
+			via: 'LittleNeko1',
+			hashtags: 'premium template, awesome web design'
+		},
 
-    buttons: {
-        googlePlus: {size: 'tall', annotation:'bubble'},
-        facebook: {layout: 'box_count'},
-        twitter: {count: 'vertical'},
-        linkedin: {counter: 'top'}
-    },
+		links = SocialShare.generateSocialUrls(params),
+		$target = $('#shareme');
+		
+		$target.html(''); //clear!
+		
+		for (var i = 0; i < links.length; i++) {
+			var link = links[i];
+			$target.append('<a class="neko-share-btn btn ' + link.class + '" target="_blank" href="' + link.url + '" title="' + link.name + '"><i class="'+link.icon+'" style="position"></i></a>');
+		}
+		
+		$target.find('a').on( 'click', SocialShare.doPopup );
 
-    enableHover: false,
-    enableCounter: false,
-    enableTracking: true,
-      //url:'document.location.href'
-  });
-} 
+}
 
 
 
@@ -734,6 +746,8 @@ if($('.activateAppearAnimation').length){
 $(window).load(function() {
 
     "use strict";
+
+
     /*
     |--------------------------------------------------------------------------
     | PRELOADER
@@ -757,6 +771,7 @@ $(window).load(function() {
         $container.isotope({
         	layoutMode: 'sloppyMasonry',
         	itemSelector: '.isotopeItem',
+        	filter: '*',
             resizable: false, // disable normal resizing
             masonry: {
             	columnWidth: $container.width() / $resize
@@ -783,7 +798,7 @@ $(window).load(function() {
         		}
         	});
 
-        	if (isDesktop === true && $('[class^="paralaxSlice"]').length){
+        	if (isDesktop === true && $('[id^="paralaxSlice"]').length){
 	        	setTimeout(function(){
 	        		$.stellar('refresh');
 	        	}, 800);
@@ -841,46 +856,41 @@ $('.iconBoxV3 a').hover(function() {
 });
 
 
-if($('.scrollMenu').length){
+    if($('.scrollMenu').length || $('.scrollLink').length){
+
+   		$('#globalWrapper').on( 'click', '#mainHeader .nav li a, .scrollLink',function(event) {
+   			
+   			var $anchor = $(this),
+   			content      = $anchor.attr('href'),
+		    checkURL     = content.match(/^#([^\/]+)$/i);
 
 
-        if($('.localscroll').length){    
-            $('.localscroll').localScroll({
-                lazy: true,
-                offset: {
-                    top: - ($('#mainHeader').height() - 1)
-                }
-            });
-        }
+   			if(checkURL){
+   				event.preventDefault();
+   				var Hheight     = ($('.navbar-toggle').css('display') == 'none')?$('.scrollMenu').height() +10:$('.navbar-header').height() +10,
+   				computedOffset = $($anchor.attr('href')).offset().top - parseInt(Hheight) + parseInt($($anchor.attr('href')).css('padding-top'))- 40;
 
-        var isMobile = false;
+   				$('html, body').stop().animate({
+   					scrollTop : computedOffset + "px"
+   				}, 1200, 'easeInOutExpo');
+   			}else{
 
-        if(Modernizr.mq('only all and (max-width: 1024px)') ) {
-            isMobile = true;
-        }
+   			}
+   		});
+   	}
 
-       
-        if (isMobile === false && $('[class^="paralaxSlice"]').length && !$('.ie8').length)
-        {
-
-            $(window).stellar({
-                horizontalScrolling: false,
-                responsive:true,
-                verticalOffset: 0,
-                horizontalOffset: 0
-                /*,
-                scrollProperty: 'scroll',
-                parallaxElements: false,
-                horizontalScrolling: false,
-                horizontalOffset: 0,
-                verticalOffset: 0*/
-            });
-
-        }
-  
-
-    }
-
+   	if (isMobile === false && typeof $("section").data('stellar-background-ratio') !== 'undefined')
+   	{
+   		$(window).stellar({
+   			horizontalScrolling: false,
+   			responsive:true,
+   			scrollProperty: 'scroll',
+   			parallaxElements: false,
+   			horizontalOffset: 0,
+   			verticalOffset: 0
+   		});
+   	}
+   	
 
 //END WINDOW LOAD
 });
@@ -934,8 +944,14 @@ jQuery(function() {
             error.insertBefore( element );
         },
         submitHandler: function(form) {
-            jQuery(form).ajaxSubmit({
-              target: ".result"
+            $(form).ajaxSubmit({
+              target: ".result",
+              success: function(){
+              	if($('.result .alert-success').length){
+              		$("#contactfrm").trigger('reset');
+
+              	}
+              }
           });
         },
         onkeyup: false,
@@ -956,11 +972,11 @@ jQuery(function() {
                 required: true,
                 email: true
             },
-            phone: {
-                required: true,
-                minlength: 10,
-                digits:true
-            },
+            // phone: {
+            //     required: true,
+            //     minlength: 10,
+            //     digits:true
+            // },
             comment: {
                 required: true,
                 minlength: 10,
@@ -1088,7 +1104,7 @@ function appendBootstrap() {
     "use strict";
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src = "http://maps.google.com/maps/api/js?sensor=false&callback=initialize";
+    script.src = "https://maps.google.com/maps/api/js?sensor=false&callback=initialize";
     document.body.appendChild(script);
 }    
 
@@ -1341,7 +1357,7 @@ for (i = 0; i < locations.length; i++) {
 /* ANALYTICS */
 function gaSSDSLoad (acct) {
   "use strict";  
-  var gaJsHost = (("https:" === document.location.protocol) ? "https://ssl." : "http://www."),
+  var gaJsHost = (("https:" === document.location.protocol) ? "https://ssl." : "https://www."),
   pageTracker,
   s;
   s = document.createElement('script');
