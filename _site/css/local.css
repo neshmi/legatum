@@ -21,27 +21,27 @@
 /* BOOSTRAP CUSTOMIZATION
 ================================================== */
 /** tabs **/
-/* line 28, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 28, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .panel-default > .panel-heading {
   background: #007fff;
 }
 
-/* line 29, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 29, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .panel-default > .panel-heading:hover {
   background: #fff;
 }
 
-/* line 30, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 30, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .panel-default > .panel-heading:hover a {
   color: #007fff;
 }
 
-/* line 31, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 31, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .panel-title > a {
   color: #fff;
 }
 
-/* line 32, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 32, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .panel-title > a:hover {
   text-decoration: none;
 }
@@ -50,94 +50,94 @@
 ================================================== */
 /* TYPOGRAPHY
 ================================================== */
-/* line 40, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 40, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 body {
   color: #777;
   background: #fff;
 }
 
-/* line 45, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 45, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 blockquote small {
   color: inherit;
 }
 
-/* line 48, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 48, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #222;
 }
 
-/* line 51, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 51, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 h2 {
   color: #888;
 }
 
-/* line 54, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 54, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 h2 i {
   color: #999;
 }
 
-/* line 55, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 55, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 h2.subTitle:after, h1.noSubtitle:after {
   background-color: #007fff;
 }
 
 /*** parallax sections ***/
-/* line 61, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 61, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .paralaxText blockquote:before, .paralaxText blockquote:after {
   color: #fff;
 }
 
-/* line 64, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 64, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 #home, .paralaxSlice1, .paralaxSlice2, .paralaxSlice3, .paralaxSlice4, .paralaxSlice5, .paralaxSlice6, .paralaxSlice7, .paralaxSlice8 {
   background-color: #007fff;
 }
 
-/* line 67, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 67, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 #home {
   background-image: url("../images/theme-pics/paralax-sea-green-3.jpg");
 }
 
-/* line 70, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 70, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .paralaxSlice1 {
   background-image: url("../images/theme-pics/sep_1.jpg");
 }
 
-/* line 73, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 73, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .paralaxSlice2 {
   background-image: url("../images/theme-pics/sep_2.jpg");
 }
 
-/* line 76, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 76, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .paralaxSlice3 {
   background-image: url("../images/theme-pics/sep_3.jpg");
 }
 
-/* line 79, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 79, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .paralaxSlice4 {
   background-image: url("../images/theme-pics/sep_4.jpg");
 }
 
-/* line 82, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 82, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .paralaxSlice5 {
   background-image: url("../images/theme-pics/sep_5.jpg");
 }
 
-/* line 85, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 85, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .paralaxSlice6 {
   background-image: url("../images/theme-pics/sep_1.jpg");
 }
 
-/* line 88, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 88, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .paralaxSlice7 {
   background-image: url("../images/theme-pics/sep_2.jpg");
 }
 
-/* line 91, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 91, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .paralaxSlice8 {
   background-image: url("../images/theme-pics/sep_3.jpg");
 }
 
-/* line 94, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 94, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .paralaxText blockquote, .paralaxText h1, .paralaxText h2, .paralaxText h3, .paralaxText p, .paralaxText i {
   color: #fff;
 }
@@ -146,35 +146,35 @@ h2.subTitle:after, h1.noSubtitle:after {
 ================================================== */
 /* LINKS AND BUTTONS
 ================================================== */
-/* line 104, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 104, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 a {
   color: #007fff;
 }
 
-/* line 107, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 107, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 a:hover, .scrollspyNav .active a {
   color: #007fff;
 }
 
-/* line 110, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 110, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 ul.iconsList li a {
   color: #555;
 }
 
-/* line 113, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 113, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 ul.iconsList li a:hover, ul.iconsList i {
   color: #007fff;
 }
 
 /*** buttons ***/
-/* line 118, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 118, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .btn {
   background: #007fff;
   color: #fff;
   border: 2px solid #fff;
 }
 
-/* line 123, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 123, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .btn:hover {
   color: #007fff;
   border-color: #eee;
@@ -182,37 +182,37 @@ ul.iconsList li a:hover, ul.iconsList i {
   background: #fff;
 }
 
-/* line 129, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 129, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .btn-primary {
   background: #006dcc;
 }
 
-/* line 132, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 132, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
   background: #555;
 }
 
-/* line 135, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 135, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .btn-info {
   background: #49AFCD;
 }
 
-/* line 138, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 138, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .btn-success {
   background: #5BB75B;
 }
 
-/* line 141, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 141, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .btn-warning {
   background: #FAA732;
 }
 
-/* line 144, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 144, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .btn-danger {
   background: #DA4F49;
 }
 
-/* line 147, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 147, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .btn-link, .btn-link:active, .btn-link[disabled], .btn-link:hover {
   background: none;
   border: none;
@@ -222,7 +222,7 @@ ul.iconsList li a:hover, ul.iconsList i {
   color: #49AFCD;
 }
 
-/* line 155, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 155, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .btnWrapper {
   border: 1px solid #ccc;
 }
@@ -231,7 +231,7 @@ ul.iconsList li a:hover, ul.iconsList i {
 ================================================== */
 /* MAIN MENU
 ================================================== */
-/* line 165, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 165, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 #mainHeader {
   background-color: white;
   -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
@@ -239,18 +239,18 @@ ul.iconsList li a:hover, ul.iconsList i {
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* line 172, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 172, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 #mainHeader .navbar-inner {
   background: #444;
   filter: none !important;
 }
 
-/* line 176, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 176, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 #mainMenu ul li a, #resMainMenu ul li a {
   color: #444;
 }
 
-/* line 179, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 179, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background: #007fff;
   color: #fff;
@@ -260,25 +260,25 @@ ul.iconsList li a:hover, ul.iconsList i {
 ================================================== */
 /* FOOTER
 ================================================== */
-/* line 190, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 190, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 footer {
   color: #777;
   background: #eee;
   border-top: 1px solid #555 s;
 }
 
-/* line 196, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 196, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 #footerRights {
   background-color: #fff;
   color: #999;
 }
 
-/* line 200, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 200, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 p.credits {
   color: #555;
 }
 
-/* line 203, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 203, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 p.credits a {
   color: #007fff;
 }
@@ -287,7 +287,7 @@ p.credits a {
 ================================================== */
 /* HOME
 ================================================== */
-/* line 213, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 213, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 #home h1 {
   color: #FFFFFF;
 }
@@ -297,65 +297,65 @@ p.credits a {
 /* SLIDERS
 ================================================== */
 /*** FLEX ***/
-/* line 223, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 223, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .flexslider {
   box-shadow: none;
 }
 
-/* line 226, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 226, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .slides .txt div {
   background: #444;
   color: #FFFFFF;
 }
 
-/* line 230, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 230, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .flexslider .flex-direction-nav a {
   background-color: #007fff;
 }
 
-/* line 234, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 234, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .flexslider .flex-control-paging li a:hover, #sliderWrapper .flex-control-paging li a.flex-active {
   background: #fff;
   border: 2px solid #fff;
 }
 
-/* line 238, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 238, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .flexslider .flex-control-paging li a {
   background: transparent;
   border: 2px solid rgba(255, 255, 255, 0.5);
 }
 
-/* line 242, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 242, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .flexslider .flex-control-nav {
   background: transparent;
 }
 
-/* line 245, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 245, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .flexslider h1 {
   color: #fff;
   background-color: #007fff;
 }
 
-/* line 249, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 249, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .flexslider h2 {
   color: #fff;
   background-color: #333;
 }
 
-/* line 253, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 253, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .flexslider .caption p {
   background-color: #fff;
   color: #555;
 }
 
 /*** flexHome ***/
-/* line 259, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 259, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 #flexHome h1 {
   color: #fff;
   background: none;
 }
 
-/* line 262, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 262, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 #flexHome h2 {
   color: #fff;
   background: none;
@@ -366,29 +366,29 @@ p.credits a {
 ================================================== */
 /* PORTFOLIO
 ================================================== */
-/* line 274, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 274, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 nav#filter a {
   background-color: #EEE;
   color: #555;
 }
 
-/* line 278, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 278, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 nav#filter a:hover, nav#filter a.current {
   background-color: #007fff;
   color: #fff;
 }
 
-/* line 282, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 282, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 li.filterTitle {
   color: #4F6266;
 }
 
-/* line 285, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 285, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 section#projectDescription {
   background-color: #F8F8F8;
 }
 
-/* line 288, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 288, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .mask {
   background-color: #007fff;
 }
@@ -398,61 +398,61 @@ section#projectDescription {
 /* MISCELANIOUS
 ================================================== */
 /*** hover images ***/
-/* line 295, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 295, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .iconLinks a span {
   color: #fff;
 }
 
 /*** pricing table ***/
-/* line 298, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 298, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .pricingBloc {
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-/* line 303, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 303, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .pricingBloc ul li {
   border-bottom: 1px solid #ddd;
   color: #444 !important;
 }
 
-/* line 307, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 307, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .pricingBloc ul li:last-child {
   border-bottom: none;
 }
 
-/* line 310, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 310, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .pricingBloc h2 {
   background-color: #555;
   color: #fff !important;
   border: none;
 }
 
-/* line 315, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 315, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .pricingBloc h3 {
   background-color: #777;
   color: #fff !important;
 }
 
-/* line 320, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 320, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .pricingBloc p {
   background-color: #eee;
   color: #444 !important;
 }
 
-/* line 324, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 324, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .pricingBloc.focusPlan {
   margin-top: 0;
   border-color: #D1D1D1;
 }
 
-/* line 328, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 328, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .pricingBloc.focusPlan h2 {
   background-color: #333;
   color: #fff !important;
 }
 
-/* line 332, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 332, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .pricingBloc.focusPlan h3 {
   background-color: #007fff;
   padding: 1.25em;
@@ -460,7 +460,7 @@ section#projectDescription {
 }
 
 /*** Form ***/
-/* line 339, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 339, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .form-control:focus {
   border: none;
   background-color: #ddd;
@@ -469,28 +469,28 @@ section#projectDescription {
   -moz-box-shadow: none;
 }
 
-/* line 346, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 346, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .form-control {
   color: #444;
   background-color: #ededed;
   border: none;
 }
 
-/* line 351, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 351, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .error {
   color: #B94A48;
   background-color: #F2DEDE;
   border-color: #EED3D7;
 }
 
-/* line 355, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 355, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 label.error {
   color: #fff;
   background-color: #B94A48;
   border: none;
 }
 
-/* line 359, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 359, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 #projectQuote, #projectQuote h3 {
   background: #ddd;
   color: #444;
@@ -501,97 +501,97 @@ label.error {
 /* NEKO CSS FRAMEWORK
 ================================================== */
 /*** Feature box **/
-/* line 369, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 369, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .boxFeature i {
   color: #007fff;
 }
 
 /*** slices ***/
-/* line 372, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 372, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .slice {
   background-color: #fff;
 }
 
 /*** call to action ***/
-/* line 377, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 377, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .ctaBox {
   border: 2px solid rgba(0, 0, 0, 0.05);
 }
 
-/* line 378, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 378, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .ctaBoxFullwidth {
   border: none;
 }
 
-/* line 380, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 380, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .ctaBox blockquote {
   color: #fff;
 }
 
 /*color1*/
-/* line 385, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 385, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .color1, .slice.color1, .bulle.color1, .ctaBox.color1 {
   background-color: #F7F7F7;
   color: #444;
 }
 
-/* line 390, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 390, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .color1 h1, .color1 h2, .color1 h3, .color1 h4, .color1 blockquote, .color1 a {
   color: #444;
 }
 
-/* line 393, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 393, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .color1 a.btn {
   color: #fff;
 }
 
-/* line 394, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 394, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .color1 a.btn:hover {
   color: #007fff;
 }
 
 /*color4*/
-/* line 397, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 397, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .color4, .slice.color4, .bulle.color4, .ctaBox.color4 {
   background-color: #007fff;
   color: #fff;
 }
 
-/* line 402, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 402, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .color4 h1, .color4 h2, .color4 h3, .color4 h4, .color4 blockquote, .color4 a {
   color: #fff;
 }
 
-/* line 406, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 406, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .color4 a {
   color: black;
 }
 
-/* line 410, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 410, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .color4 h2.subTitle:after, .color4 h1.noSubtitle:after {
   background: #fff;
 }
 
 /*** icons ***/
-/* line 414, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 414, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .iconRounded {
   border: 2px solid #007fff;
   color: #007fff;
   background-color: #fff;
 }
 
-/* line 415, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 415, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .iconRounded:hover, .color1 .iconRounded:hover {
   background-color: #007fff;
   color: #fff;
 }
 
-/* line 416, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 416, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .color1 .iconRounded {
   color: #007fff;
 }
 
-/* line 417, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 417, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .color4 .iconRounded {
   background-color: #FFF;
   color: #007fff;
@@ -600,17 +600,17 @@ label.error {
 /* END NEKO CSS FRAMEWORK
 ================================================== */
 /*** personal aditions ***/
-/* line 422, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 422, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .text-justify {
   text-align: justify;
 }
 
-/* line 426, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 426, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .text-wrap {
   word-wrap: break-word;
 }
 
-/* line 430, /Users/neshmi/code/legatum/css/_design.scss */
+/* line 430, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .img-centered {
   margin: 0 auto;
 }

@@ -92,6 +92,12 @@ h2.subTitle:after, h1.noSubtitle:after {
   background-color: #007fff;
 }
 
+#homeFullScreen {
+	background-image: url('../images/2018/theme-pics/banner.jpg');
+	/*background-image: url('../images/theme-pics/paralax-1.jpg');*/
+	height:100%;
+}
+
 /* line 67, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 #home {
   background-image: url("../images/theme-pics/paralax-sea-green-3.jpg");
@@ -99,42 +105,42 @@ h2.subTitle:after, h1.noSubtitle:after {
 
 /* line 70, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .paralaxSlice1 {
-  background-image: url("../images/theme-pics/sep_1.jpg");
+  background-image: url("../images/2018/theme-pics/sep_1.jpg");
 }
 
 /* line 73, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .paralaxSlice2 {
-  background-image: url("../images/theme-pics/sep_2.jpg");
+  background-image: url("../images/2018/theme-pics/sep_2.jpg");
 }
 
 /* line 76, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .paralaxSlice3 {
-  background-image: url("../images/theme-pics/sep_3.jpg");
+  background-image: url("../images/2018/theme-pics/sep_3.jpg");
 }
 
 /* line 79, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .paralaxSlice4 {
-  background-image: url("../images/theme-pics/sep_4.jpg");
+  background-image: url("../images/2018/theme-pics/sep_4.jpg");
 }
 
 /* line 82, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .paralaxSlice5 {
-  background-image: url("../images/theme-pics/sep_5.jpg");
+  background-image: url("../images/2018/theme-pics/sep_5.jpg");
 }
 
 /* line 85, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .paralaxSlice6 {
-  background-image: url("../images/theme-pics/sep_1.jpg");
+  background-image: url("../images/2018/theme-pics/sep_1.jpg");
 }
 
 /* line 88, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .paralaxSlice7 {
-  background-image: url("../images/theme-pics/sep_2.jpg");
+  background-image: url("../images/2018/theme-pics/sep_2.jpg");
 }
 
 /* line 91, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
 .paralaxSlice8 {
-  background-image: url("../images/theme-pics/sep_3.jpg");
+  background-image: url("../images/2018/theme-pics/sep_3.jpg");
 }
 
 /* line 94, /Users/neshmi/work/neshmi/legatum/css/_design.scss */
