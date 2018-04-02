@@ -283,6 +283,11 @@ p.credits a {
   color: #007fff;
 }
 
+.footerWidgetLeft a img {
+  width: 250px;
+  height: 100%;
+}
+
 /* END FOOTER
 ================================================== */
 /* HOME
